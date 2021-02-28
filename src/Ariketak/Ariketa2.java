@@ -17,6 +17,8 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class Ariketa2 {
 
@@ -62,6 +64,11 @@ public class Ariketa2 {
 		frame.setLocationRelativeTo(null);
 		
 		JPanel gridLayoutPane = new JPanel();
+		gridLayoutPane.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+			}
+		});
 		frame.getContentPane().add(gridLayoutPane, BorderLayout.CENTER);
 		gridLayoutPane.setLayout(new GridLayout(3, 3, 0, 0));
 		
@@ -164,6 +171,7 @@ public class Ariketa2 {
 			btnNewButton_1 = new JButton("Exit");
 			btnNewButton_1.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent arg0) {
+					System.exit(0);
 				}
 			});
 			btnNewButton_1.setBounds(48, 34, 56, 21);
