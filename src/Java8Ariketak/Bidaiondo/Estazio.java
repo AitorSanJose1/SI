@@ -1,4 +1,4 @@
-package Java8Ariketak;
+package Java8Ariketak.Bidaiondo;
 
 public class Estazio {
 	

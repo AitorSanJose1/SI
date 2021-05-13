@@ -1,6 +1,4 @@
-package Java8Ariketak;
-
-import java.util.Map;
+package Java8Ariketak.Bidaiondo;
 
 public class Nagusia {
 

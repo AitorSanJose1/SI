@@ -1,4 +1,4 @@
-package Java8Ariketak;
+package Java8Ariketak.Bidaiondo;
 
 import java.util.ArrayList;
 import java.util.Comparator;
